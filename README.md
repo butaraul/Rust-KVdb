@@ -109,7 +109,3 @@ cd dashboard
 npm install
 npm run dev      # Vite dev server with proxying to a running kvdb-server on :8080
 ```
-
-## License
-
-MIT — see [LICENSE](LICENSE).
