@@ -1,0 +1,29 @@
+[package]
+name = "server"
+description = "mio-based RESP server binary tying storage, persistence, protocol, and web together"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "server"
+path = "src/lib.rs"
+
+[[bin]]
+name = "kvdb-server"
+path = "src/main.rs"
+
+[dependencies]
+storage = { path = "../storage" }
+persistence = { path = "../persistence" }
+protocol = { path = "../protocol" }
+web = { path = "../web" }
+mio = { version = "1", features = ["os-poll", "net"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+clap = { version = "4", features = ["derive"] }
+tokio = { version = "1", features = ["rt-multi-thread"] }
+anyhow = "1"
+
+[dev-dependencies]
+tempfile = "3"

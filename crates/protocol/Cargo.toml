@@ -1,0 +1,8 @@
+[package]
+name = "protocol"
+description = "Zero-copy RESP (Redis Serialization Protocol) parser and encoder"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
