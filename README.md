@@ -1,4 +1,4 @@
-# kvdb
+# Rust Key-Value-Database
 
 A high-performance in-memory key-value database, written from scratch in Rust,
 with a live React dashboard.
