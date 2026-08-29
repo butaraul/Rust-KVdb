@@ -1,5 +1,8 @@
 # Rust Key-Value-Database
 
+![GitHub Repo stars](https://img.shields.io/github/stars/butaraul/Rust-KVdb)
+
+
 A high-performance in-memory key-value database, written from scratch in Rust,
 with a live React dashboard.
 
