@@ -1,6 +1,9 @@
 # Rust Key-Value-Database
 
-![GitHub Repo stars](https://img.shields.io/github/stars/butaraul/Rust-KVdb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Made with Rust](https://img.shields.io/badge/Made%20with-Rust-orange.svg)](https://www.rust-lang.org/)
+[![Redis Protocol](https://img.shields.io/badge/Protocol-RESP-2B2B2B.svg)](https://redis.io/docs/latest/develop/reference/protocol-spec/)
+[![GitHub stars](https://img.shields.io/github/stars/butaraul/Rust-KVdb.svg?style=social)](https://github.com/butaraul/Rust-KVdb/stargazers)
 
 
 A high-performance in-memory key-value database, written from scratch in Rust,
